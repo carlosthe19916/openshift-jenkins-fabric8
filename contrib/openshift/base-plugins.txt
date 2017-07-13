@@ -29,7 +29,7 @@ multiple-scms:0.6
 
 # Jenkins v2 specific
 #matrix-auth:1.5
-#blueocean:1.0.1
+#blueocean:1.1.4
 
 # Legacy stuff
 #mapdb-api:1.0.1.0
@@ -40,22 +40,22 @@ ace-editor:latest
 ant:latest
 antisamy-markup-formatter:latest
 authentication-tokens:latest
-blueocean:1.0.1 
+blueocean:1.1.4 
 blueocean-autofavorite:latest
-blueocean-commons:1.0.1 
-blueocean-config:1.0.1 
-blueocean-dashboard:1.0.1 
+blueocean-commons:1.1.4 
+blueocean-config:1.1.4 
+blueocean-dashboard:1.1.4 
 blueocean-display-url:latest
-blueocean-github-pipeline:1.0.1 
-blueocean-git-pipeline:1.0.1 
-blueocean-i18n:1.0.1 
-blueocean-events:1.0.1 
-blueocean-jwt:1.0.1 
-blueocean-personalization:1.0.1 
-blueocean-pipeline-api-impl:1.0.1 
-blueocean-rest:1.0.1 
-blueocean-rest-impl:1.0.1 
-blueocean-web:1.0.1 
+blueocean-github-pipeline:1.1.4 
+blueocean-git-pipeline:1.1.4 
+blueocean-i18n:1.1.4 
+blueocean-events:1.1.4 
+blueocean-jwt:1.1.4 
+blueocean-personalization:1.1.4 
+blueocean-pipeline-api-impl:1.1.4 
+blueocean-rest:1.1.4 
+blueocean-rest-impl:1.1.4 
+blueocean-web:1.1.4 
 bouncycastle-api:latest
 branch-api:2.0.5
 build-timeout:latest
