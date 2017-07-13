@@ -88,7 +88,7 @@ RUN /usr/local/bin/install-plugins.sh /opt/openshift/base-plugins.txt && \
     /usr/local/bin/fix-permissions /var/log
 
 # copy custom built plugins
-COPY plugins/*.hpi /var/lib/jenkins/ref/plugins/
+COPY plugins/*.hpi /var/lib/jenkins/plugins/
 
 VOLUME ["/var/lib/jenkins"]
 
