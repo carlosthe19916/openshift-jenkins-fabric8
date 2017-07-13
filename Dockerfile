@@ -48,7 +48,7 @@ COPY ./contrib/jenkins /usr/local/bin
 ADD ./contrib/s2i /usr/libexec/s2i
 
 # copy custom built plugins
-COPY ./plugins/*.hpi /var/lib/jenkins/plugins/
+COPY plugins/*.hpi /var/lib/jenkins/plugins/
 
 RUN /usr/local/bin/install-plugins.sh /opt/openshift/base-plugins.txt && \
     # need to create <plugin>.pinned files when upgrading "core" plugins like credentials or subversion that are bundled with the jenkins server
