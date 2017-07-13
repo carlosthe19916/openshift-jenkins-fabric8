@@ -10,7 +10,7 @@ FROM centos:centos7
 # Environment:
 # * $JENKINS_PASSWORD - Password for the Jenkins 'admin' user.
 
-MAINTAINER Ben Parees <bparees@redhat.com>
+MAINTAINER Carlos Feria <carlosthe19916@sistcoop.com>
 
 # Jenkins LTS packages from
 # https://pkg.jenkins.io/redhat-stable/
