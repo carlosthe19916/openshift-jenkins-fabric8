@@ -114,6 +114,5 @@ workflow-scm-step:latest
 workflow-step-api:latest
 workflow-support:latest
 ws-cleanup:latest
-token-macro:latest:latest
 config-file-provider:latest
 nodejs:latest
