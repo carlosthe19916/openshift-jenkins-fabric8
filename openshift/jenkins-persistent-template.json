@@ -83,7 +83,7 @@
                         "serviceAccountName": "${JENKINS_SERVICE_NAME}",
                         "containers": [{
                             "name": "jenkins",
-                            "image": " ",
+                            "image": "carlosthe19916/openshift-jenkins-fabric8:latest",
                             "readinessProbe": {
                                 "timeoutSeconds": 3,
                                 "initialDelaySeconds": 3,
@@ -143,7 +143,6 @@
                                 "privileged": false
                             }
                         }],
-                        "image": "carlosthe19916/openshift-jenkins-fabric8:latest",
                         "volumes": [{
                             "name": "${JENKINS_SERVICE_NAME}-data",
                             "persistentVolumeClaim": {
