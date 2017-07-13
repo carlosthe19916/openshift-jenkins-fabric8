@@ -57,7 +57,7 @@ blueocean-rest:1.0.1
 blueocean-rest-impl:1.0.1 
 blueocean-web:1.0.1 
 bouncycastle-api:latest
-branch-api:2.0.5
+branch-api:2.0.10
 build-timeout:latest
 cloudbees-folder:latest
 credentials:latest
@@ -116,7 +116,7 @@ pipeline-input-step:latest
 pipeline-milestone-step:latest
 pipeline-model-api:1.0.2
 pipeline-model-declarative-agent:1.0.2
-pipeline-model-definition:1.0.2
+pipeline-model-definition:1.1.8
 pipeline-githubnotify-step:latest
 pipeline-github-lib:latest
 pipeline-rest-api:latest
