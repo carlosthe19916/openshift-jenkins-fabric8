@@ -136,7 +136,7 @@
                                 "mountPath": "/var/lib/jenkins"
                             }],
                             "terminationMessagePath": "/dev/termination-log",
-                            "imagePullPolicy": "IfNotPresent",
+                            "imagePullPolicy": "Always",
                             "capabilities": {},
                             "securityContext": {
                                 "capabilities": {},
