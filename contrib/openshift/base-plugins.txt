@@ -22,7 +22,7 @@ workflow-remote-loader:1.2
 #mercurial:1.54
 #matrix-project:1.7.1
 multiple-scms:0.6
-#ssh-credentials:1.13
+ssh-credentials:latest
 
 # Pipeline Utility Steps Plugin - https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Utility+Steps+Plugin
 #pipeline-utility-steps:1.1.5
@@ -57,7 +57,7 @@ blueocean-rest:1.0.1
 blueocean-rest-impl:1.0.1 
 blueocean-web:1.0.1 
 bouncycastle-api:latest
-branch-api:2.0.10
+branch-api:latest
 build-timeout:latest
 cloudbees-folder:latest
 credentials:latest
@@ -69,7 +69,7 @@ durable-task:latest
 email-ext:latest
 external-monitor-job:latest
 favorite:latest
-git-changelog:1.45
+git-changelog:latest
 git:latest
 git-client:latest
 git-server:latest
@@ -114,9 +114,9 @@ pipeline-build-step:latest
 pipeline-graph-analysis:latest
 pipeline-input-step:latest
 pipeline-milestone-step:latest
-pipeline-model-api:1.0.2
-pipeline-model-declarative-agent:1.0.2
-pipeline-model-definition:1.1.8
+pipeline-model-api:latest
+pipeline-model-declarative-agent:latest
+pipeline-model-definition:latest
 pipeline-githubnotify-step:latest
 pipeline-github-lib:latest
 pipeline-rest-api:latest
@@ -130,7 +130,7 @@ scm-api:latest
 script-security:latest
 sse-gateway:latest
 ssh-agent:latest
-ssh-credentials:latest
+#ssh-credentials:latest
 ssh-slaves:latest
 structs:latest
 subversion:latest
@@ -145,9 +145,9 @@ workflow-api:latest
 workflow-basic-steps:latest
 workflow-cps:latest
 workflow-cps-global-lib:latest
-workflow-durable-task-step:2.8
+workflow-durable-task-step:latest
 workflow-job:latest
-workflow-multibranch:2.12
+workflow-multibranch:latest
 workflow-scm-step:latest
 workflow-step-api:latest
 workflow-support:latest
