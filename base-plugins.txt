@@ -1,3 +1,42 @@
+openshift-pipeline:1.0.46
+openshift-login:0.12
+openshift-client:0.9.5
+
+
+# kubernetes plugin - https://wiki.jenkins-ci.org/display/JENKINS/Kubernetes+Plugin
+kubernetes:0.10
+
+# fabric8 openshift sync
+openshift-sync:0.1.22
+
+# Pipeline plugin - https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Plugin
+# 2.5 now includes pipeline-model-definition (declaritive pipeline)
+# 2.4 brought in pipeline-milestone-step
+workflow-aggregator:2.5
+
+
+# remote loader https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Remote+Loader+Plugin
+workflow-remote-loader:1.2
+
+# mercurial - https://wiki.jenkins-ci.org/display/JENKINS/Mercurial+Plugin
+mercurial:1.54
+matrix-project:1.7.1
+multiple-scms:0.6
+ssh-credentials:1.13
+
+# Pipeline Utility Steps Plugin - https://wiki.jenkins-ci.org/display/JENKINS/Pipeline+Utility+Steps+Plugin
+pipeline-utility-steps:1.1.5
+
+# Jenkins v2 specific
+matrix-auth:1.5
+blueocean:1.0.1
+
+# Legacy stuff
+mapdb-api:1.0.1.0
+subversion:2.5.7
+
+
+# Fabric8
 ace-editor:latest
 ant:latest
 antisamy-markup-formatter:latest

@@ -1,9 +1,6 @@
 FROM openshift/jenkins-2-centos7
 
-RUN /usr/libexec/s2i/run
-
-COPY plugins.txt /var/lib/jenkins/plugins.txt
-RUN /usr/local/bin/install-plugins.sh /var/lib/jenkins/plugins.txt
+COPY base-plugins.txt /opt/openshift/base-plugins.txt
 
 # copy custom built plugins
 #COPY plugins/*.hpi /var/lib/jenkins/ref/plugins/
