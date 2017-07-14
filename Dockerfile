@@ -50,7 +50,7 @@ ADD ./contrib/s2i /usr/libexec/s2i
 RUN /usr/local/bin/install-plugins.sh /opt/openshift/base-plugins.txt && \
     # need to create <plugin>.pinned files when upgrading "core" plugins like credentials or subversion that are bundled with the jenkins server
     # Currently jenkins v2 does not embed any plugins, but for reference:
-    # touch /opt/openshift/plugins/credentials.jpi.pinned && \    
+    # touch /opt/openshift/plugins/credentials.jpi.pinned && \
     rmdir /var/log/jenkins && \
     chmod 775 /etc/passwd && \
     chmod -R 775 /etc/alternatives && \
@@ -86,13 +86,6 @@ RUN /usr/local/bin/install-plugins.sh /opt/openshift/base-plugins.txt && \
     /usr/local/bin/fix-permissions /opt/openshift && \
     /usr/local/bin/fix-permissions /var/lib/jenkins && \
     /usr/local/bin/fix-permissions /var/log
-
-# copy custom built plugins
-COPY ./plugins/* /opt/openshift/plugins/
-
-# NOTE: When adding new Jenkins plugin, you have to create the symlink for the
-# HPI file created by rpm to /opt/openshift/plugins folder.
-#RUN for FILENAME in /var/lib/jenkins/plugins/*hpi ; do ln -s $FILENAME  /var/lib/jenkins/plugins/`basename $FILENAME .hpi`.jpi; done 
 
 VOLUME ["/var/lib/jenkins"]
 
