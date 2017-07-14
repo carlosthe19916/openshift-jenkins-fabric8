@@ -29,7 +29,7 @@ pipeline-utility-steps:latest
 
 # Jenkins v2 specific
 matrix-auth:latest
-blueocean:2.7.1
+blueocean:1.1.4
 
 # Legacy stuff
 mapdb-api:latest
@@ -40,22 +40,22 @@ ace-editor:latest
 ant:latest
 antisamy-markup-formatter:latest
 authentication-tokens:latest
-#blueocean:2.7.1 
+#blueocean:1.1.4 
 blueocean-autofavorite:latest
-blueocean-commons:2.7.1 
-blueocean-config:2.7.1 
-blueocean-dashboard:2.7.1 
+blueocean-commons:1.1.4 
+blueocean-config:1.1.4 
+blueocean-dashboard:1.1.4 
 blueocean-display-url:latest
-blueocean-github-pipeline:2.7.1 
-blueocean-git-pipeline:2.7.1 
-blueocean-i18n:2.7.1 
-blueocean-events:2.7.1 
-blueocean-jwt:2.7.1 
-blueocean-personalization:2.7.1 
-blueocean-pipeline-api-impl:2.7.1 
-blueocean-rest:2.7.1 
-blueocean-rest-impl:2.7.1 
-blueocean-web:2.7.1 
+blueocean-github-pipeline:1.1.4 
+blueocean-git-pipeline:1.1.4 
+blueocean-i18n:1.1.4 
+blueocean-events:1.1.4 
+blueocean-jwt:1.1.4 
+blueocean-personalization:1.1.4 
+blueocean-pipeline-api-impl:1.1.4 
+blueocean-rest:1.1.4 
+blueocean-rest-impl:1.1.4 
+blueocean-web:1.1.4 
 bouncycastle-api:latest
 branch-api:latest
 build-timeout:latest
