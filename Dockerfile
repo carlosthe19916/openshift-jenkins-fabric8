@@ -88,12 +88,11 @@ RUN /usr/local/bin/install-plugins.sh /opt/openshift/base-plugins.txt && \
     /usr/local/bin/fix-permissions /var/log
 
 # copy custom built plugins
-COPY ./plugins/* /var/lib/jenkins/plugins/
-RUN ls /var/lib/jenkins/plugins
+COPY ./plugins/* /opt/openshift/plugins/
 
 # NOTE: When adding new Jenkins plugin, you have to create the symlink for the
 # HPI file created by rpm to /opt/openshift/plugins folder.
-RUN for FILENAME in /var/lib/jenkins/plugins/*hpi ; do ln -s $FILENAME  /var/lib/jenkins/plugins/`basename $FILENAME .hpi`.jpi; done 
+#RUN for FILENAME in /var/lib/jenkins/plugins/*hpi ; do ln -s $FILENAME  /var/lib/jenkins/plugins/`basename $FILENAME .hpi`.jpi; done 
 
 VOLUME ["/var/lib/jenkins"]
 
